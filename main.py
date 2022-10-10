@@ -287,11 +287,27 @@
 #     number2 = random.randint(1,10)
 #     print(f'({number1}, {number2})')
 
-import random
-class Dice:
-    def roll(self):
-        first = random.randint(1, 6)
-        second = random.randint(1, 6)
-        return first, second
-dice = Dice()
-print(dice.roll())
+# import random
+# class Dice:
+#     def roll(self):
+#         first = random.randint(1, 6)
+#         second = random.randint(1, 6)
+#         return first, second
+# dice = Dice()
+# print(dice.roll())
+
+# from pathlib import Path
+# path = Path()
+# path = Path("emails")
+# print(path.mkdir())
+# print(path.rmdir())
+# print(path.glob("*.py"))
+# for file in path.glob("*.py"):
+#     print(file)
+# for file1 in path.glob("*.html"):
+#     print(file1)
+# for file2 in path.glob("*.js"):
+#     print(file2)
+# for file in path.glob("*"):
+#     print(file)
+
